@@ -45,14 +45,14 @@ The pretraining dataset should be downloaded from the official [Uni-Mol Dataset 
 After downloading, place the dataset under:
 
 ```bash
-data/pretrain/
+data/ligands/
 ```
 
 Example:
 
 ```bash
 data/
-├── pretrain/
+├── ligands/
 │   ├── train.lmdb
 │   ├── valid.lmdb
 │   └── dict.txt
@@ -65,10 +65,8 @@ data/
 Run the preprocessing script before training:
 
 ```bash
-python XXX.py
+python data/add_fg.py
 ```
-
-Please replace `XXX.py` with the actual preprocessing script.
 
 ---
 
@@ -80,13 +78,6 @@ Example command for GeoFG pretraining:
 bash scripts/pretrain.sh
 ```
 
-or
-
-```bash
-python train.py \
-    --task pretrain \
-    --config config/pretrain.yaml
-```
 
 ---
 
@@ -95,32 +86,13 @@ python train.py \
 Example command for downstream finetuning:
 
 ```bash
-bash scripts/finetune.sh
+bash scripts/run_all_finetune.sh
 ```
 
-or
-
-```bash
-python finetune.py \
-    --task classification \
-    --config config/finetune.yaml
-```
 
 ---
 
-# Project Structure
 
-```bash
-.
-├── data/
-├── scripts/
-├── config/
-├── unimol/
-├── fg_unimol/
-├── environment.yml
-├── README.md
-└── train.py
-```
 
 ---
 
