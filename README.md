@@ -1,4 +1,4 @@
-# GeoFG: Geometry-Aware Functional Group Modeling for 3D Molecular Representation Learning
+# GeoFG
 
 This repository contains the official source code for the paper:
 
@@ -33,14 +33,14 @@ Example structure:
 ```bash
 data/
 ├── unimol_pretrained/
-│   └── checkpoint_best.pt
+│   └── mol_pre_no_h_220816.pt
 ```
 
 ---
 
 # Pretraining Dataset
 
-The pretraining dataset should be downloaded from the official Uni-Mol project.
+The pretraining dataset should be downloaded from the official [Uni-Mol Dataset Repository](https://github.com/dptech-corp/Uni-Mol).
 
 After downloading, place the dataset under:
 
