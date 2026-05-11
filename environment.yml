@@ -390,4 +390,4 @@ dependencies:
       - xformers==0.0.27.post2
       - xxhash==3.6.0
       - yapf==0.43.0
-prefix: /labmount/users/202420870/miniconda3/envs/alidiff
+prefix: /labmount/users/miniconda3/envs/alidiff
