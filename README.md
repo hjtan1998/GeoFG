@@ -32,8 +32,7 @@ Example structure:
 
 ```bash
 data/
-├── unimol_pretrained/
-│   └── mol_pre_no_h_220816.pt
+├── mol_pre_no_h_220816.pt
 ```
 
 ---
