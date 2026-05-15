@@ -21,7 +21,7 @@ conda env create -f environment.yml
 ```bash
 conda activate alidiff
 ```
-The conda environment also can be downloaded via [alidiff](https://pan.baidu.com/s/1C3ZnFrU11xFXa8WzEHXMYg)
+The conda environment also can be downloaded via [alidiff](https://pan.baidu.com/s/1C3ZnFrU11xFXa8WzEHXMYg).
 Extraction code: t29t
 
 
@@ -79,7 +79,7 @@ Example command for GeoFG pretraining:
 ```bash
 bash scripts/pretrain.sh
 ```
-Our pre-trained GeoFG model can be downloaded via [pre-trained GeoFG](https://pan.baidu.com/s/1brNsZBNZiVyPYGf3X9voVA)
+Our pre-trained GeoFG model can be downloaded via [pre-trained GeoFG](https://pan.baidu.com/s/1brNsZBNZiVyPYGf3X9voVA).
 Extraction code: uki3
 
 ---
